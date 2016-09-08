@@ -1,6 +1,7 @@
 import requests
 
-response = requests.post("http://ccid-eddieantonio.rhcloud.com/thu2")
+response = requests.get("https://github.com/PreviousHippo/cmput404lab1/raw/master/lab1.py")
 
-print response.status_code
+print response.text
+
 print requests.__version__
